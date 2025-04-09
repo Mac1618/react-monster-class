@@ -1,0 +1,16 @@
+
+--- 03/20/2025 --- 
+3 HOURS CHALLENGE (reactjs monster class)
+  - from:   7:20 pm     (1:55:58)
+  - to:     10:20 pm    ()
+
+1. proper git commits, pr, and branching
+
+2. PORTAL
+  - is a feature that allows you to render a child component into a DOM note that exists outside the heirarchy of the parent component. These can be useful for scenarios like:
+    a. modals
+    b. tooltips
+    c. dropdowns
+  where you want to break out of the usual parent-child structure and render in a different part of the DOM.
+
+3. 
