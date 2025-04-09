@@ -1,0 +1,78 @@
+type of learning: 
+1. fully focus            - rest 5 mins to 10 mins
+2. with medium rests      - rest 10 mins to 30 mins
+3. with long rests        - rest is same lenght of learning or even longer
+
+
+--- 03/20/2025 --- 
+3 HOURS CHALLENGE (reactjs monster class)
+  - from:   7:20 pm     (1:55:58)
+  - to:     10:20 pm    (2:10:00)
+
+1. proper git commits, pr, and branching
+
+2. UseState
+
+3. PORTAL
+  - is a feature that allows you to render a child component into a DOM note that exists outside the heirarchy of the parent component. These can be useful for scenarios like:
+    a. modals
+    b. tooltips
+    c. dropdowns
+  where you want to break out of the usual parent-child structure and render in a different part of the DOM.
+
+
+--- 4/6/2025 ---
+  - from:   11:00 am (2:10:00) 
+  - to:     05:00 pm (2:55:00)
+
+3. PORTAL
+  - commonly used to popup, modals, alerts, dialog to render outside of the root element. Sometimes it's used for login/registration, notification, Image and Video Lightboxes basically anything that can popup on the screen.
+
+4. useState
+  - use to render a state on first render
+    a. if dependency array is not provided:     - it will render on each reload.
+    b. if dependency array is provided:         - reloads if dependecies changes.
+    c. condition only works inside the useEffect.
+
+5. <StrictMode></StrictMode>:
+  - causes to render twice (you can test in useEffect)
+  - inside the main.jsx
+
+--- 4/9/2025 ---
+  - from:   11:00 pm (2:55:00) 
+  - to:     01:09 am (315:00)
+
+6. fetch  
+  - using fetch need to add await for fetching and getting the response. See sample on hook -> use-effect -> 03-assignment -> FetchDataEffect.jsx
+
+7. Context API
+  - Context API is a feature that allows you to manage and share state across your component tree without having to pass props down manually at every level. It's useful for scenarios where you need to share data or functions across many components, especially when these components deeply nested
+
+    // basically the parent   
+    a. const FormContext = createContext(), <FormContext.Provider> </FormContext.Provider> (e.g 02-assignment)
+      - FormContext has 2 attributes. "Provider" and "Consumer"
+      - "Provider": we are providing the value to pass
+    
+    // children component
+    b. import {FormContext}, <FormContext.Consumer> </FormContext.Consumer>
+      - how we will consume or use the data.
+    
+    c. context api needs to use createContext() multiple times to pass a data. Sample in 04-context -> 02-assignment
+
+8. useContext()
+  - useContext allows us to access the context values provided by the context object directly within a functional component. Context provides a way to pass data through the component tree without having to pass pross down manually at every level.
+    a. alternative and much better approach on "Consumer" e.g. "<FormContext.Consumer>"
+    b. sample in 04-context -> 03-assignment
+
+9. conditional with .trim()
+  - removes the whitespaces in a string.
+    a. with conditional:
+      --- sample ---
+      const username = "   username   "; 
+      if (username.trim()) {
+        // logic here
+      }
+
+      --- description --- 
+      - if "username" empty or has a space "   ", will return false
+      - if "username" has a value other than space "value", will return true
