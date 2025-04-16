@@ -102,7 +102,29 @@ type of learning:
 
 --- 4/13/2025 ---
   - from:   01:20 am (3:40:00) 
-  - to:     00:00 am (0:00:00)
+  - to:     1:40 am (3:50:00)
 
 12: useRef()
   - useRef Hook proves a way to access and "interact with DOM" elements or to persist values across renders without causing a re-render.
+
+
+--- 4/16/2025 ---
+  - from:   06:35 pm (3:50:00) 
+  - to:     00:00 pm (3:00:00)
+
+1. Custom Hooks
+  - Custom Hooks are javascript functions that start with a prefix "use" (e.g., useFetch useForm) and can call other hooks within them. They allow you to "extract and reuse logic" that involves state or side effects, making your component more readable and maintainable
+
+2.  "try, catch" vs "then, catch"
+    a. "try, catch" 
+      - developers preferred try catch for readability and easy to manage your logics
+    b. "then, catch"
+      - alternative to try catch but basically the same. 
+      - good to know: you can use .then from 1st one to 2nd one.
+        - e.g. fetch("link.com.ph")           // response.data.data
+                .then((layerOne) => layerOne) // 1st layer
+                .then((layerTwo) => layerTwo) // 2nd layer
+
+3. useId hook
+  - this hook in React is used to generate unique IDs for components
+  
