@@ -40,7 +40,7 @@ type of learning:
 
 --- 4/9/2025 ---
   - from:   11:00 pm (2:55:00) 
-  - to:     01:09 am (315:00)
+  - to:     01:09 am (3:40:00)
 
 6. fetch  
   - using fetch need to add await for fetching and getting the response. See sample on hook -> use-effect -> 03-assignment -> FetchDataEffect.jsx
@@ -76,3 +76,33 @@ type of learning:
       --- description --- 
       - if "username" empty or has a space "   ", will return false
       - if "username" has a value other than space "value", will return true
+
+10. pr description  
+  a. template:          
+    - ## 🔥 What’s New?, 
+    - ## ✅ Checklist, 
+    - ## 🧪 How to Test, 
+    - ## 📝 Related Issues, 
+    - ## 💬 Notes for Reviewers 
+  b. see sample here: - https://chatgpt.com/share/67f62a01-a710-8008-9eed-41c505adeb09
+  c. markdonw docs:   - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+11. useReducer()
+  - is a hook that is similar to useState, but it is designed for more complex state objects or state transitions that involves multiple subvalues. It allows you to manage states in a functional, Immutable way.
+
+    a. sample structure of a useReducer()
+    - const [state, dispatch] = useReducer(reducer, initialState)
+
+    b. definition of terms
+    - "state":      - The current state value, which you can use in your component.
+    - "dispatch":   - A function you call to send  actions to the reducer, which then updates the state.
+    - "reducer"     - This is a function that describes how the state should change based on actions. It takes the curret state and an actions as inputs, and returns a new state.
+    - "initialState"  - This is the starting value for the state when the component first renders.
+
+
+--- 4/13/2025 ---
+  - from:   01:20 am (3:40:00) 
+  - to:     00:00 am (0:00:00)
+
+12: useRef()
+  - useRef Hook proves a way to access and "interact with DOM" elements or to persist values across renders without causing a re-render.

@@ -8,6 +8,8 @@ import HooksFour from './01-usestate/04-assignment/Index';
 import MainHooksTwo from './02-portal';
 import MainHooksThree from './03-use-effect/Index';
 import MainHooksFour from './04-context';
+import MainHooksFive from './05-use-reducer/Index';
+import MainHooksSix from './06-use-ref/Index';
 
 const Hooks = () => {
 	return (
@@ -15,7 +17,9 @@ const Hooks = () => {
 			{/* <MainHooksOne /> */}
 			{/* <MainHooksTwo /> */}
 			{/* <MainHooksThree /> */}
-			<MainHooksFour />
+			{/* <MainHooksFour /> */}
+			{/* <MainHooksFive /> */}
+			<MainHooksSix />
 		</div>
 	);
 };
