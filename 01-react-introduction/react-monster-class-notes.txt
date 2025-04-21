@@ -110,7 +110,7 @@ type of learning:
 
 --- 4/16/2025 ---
   - from:   06:35 pm (3:50:00) 
-  - to:     00:00 pm (3:00:00)
+  - to:     00:00 pm (4:00:00)
 
 1. Custom Hooks
   - Custom Hooks are javascript functions that start with a prefix "use" (e.g., useFetch useForm) and can call other hooks within them. They allow you to "extract and reuse logic" that involves state or side effects, making your component more readable and maintainable
@@ -128,3 +128,25 @@ type of learning:
 3. useId hook
   - this hook in React is used to generate unique IDs for components
   
+--- 4/16/2025 ---
+  - from:   12:30 am (4:00:00) 
+  - to:     2:00 am (4:25:00)
+
+1. concat
+  - used to stick together, works with "string" and "arrays"
+  - sample: 
+    a.  const hello = "Hello, ";
+        const name = "Mark!";
+        const greeting = hello.concat(name);    - // "Hello, Mark!"
+    
+    b.  const fruits = ["🍎", "🍌"];
+        const veggies = ["🥕", "🥦"];
+        const food = fruits.concat(veggies);    - // ["🍎", "🍌", "🥕", "🥦"]
+
+2. eval()
+  - executes a javascript argument with string format.
+  - NOTE: executing javascript in a string is BIG SECURITY RISK. Don't use in real world applications
+
+--- 4/16/2025 ---
+  - from:   3:00 pm (4:25:00) 
+  - to:     0:00 am (4:00:00)
