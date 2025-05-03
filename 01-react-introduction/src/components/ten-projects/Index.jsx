@@ -7,6 +7,7 @@ import MainProjectThree from './meals-app/Index';
 import MainProjectSix from './search-bar-app/Index';
 import MainProjectSeven from './testimonial-app/Index';
 import MainProjectTwo from './todo-app/Index';
+import MainProjectNine from './form-validation-app';
 
 const TenProjects = () => {
 	return (
@@ -18,7 +19,8 @@ const TenProjects = () => {
 			{/* <MainProjectFive /> */}
 			{/* <MainProjectSix /> */}
 			{/* <MainProjectSeven /> */}
-			<MainProjectEight />
+			{/* <MainProjectEight /> */}
+			<MainProjectNine/>
 		</>
 	);
 };
