@@ -1,0 +1,8 @@
+About the application
+  1. This application is a static ecommerce website using consist of technologies of: 
+    - reactjs, 
+    - hooks basics
+    - advance filterings
+    - CSS
+  
+  2. 
